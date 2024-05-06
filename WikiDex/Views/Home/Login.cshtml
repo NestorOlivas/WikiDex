@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="~/Content/CSS/Login.css">
+        <script src="~/Scripts/Login.js"></script>
+
+        <title>Login</title>
+    </head>
+
+    <body>
+        <div class="login-reg-panel">
+            <div class="login-info-box">
+                <h2>¡Bienvenidx!</h2>
+                <p>Inicia Sesión Con Tu Cuenta</p>
+                <label id="label-register" for="log-reg-show">Iniciar Sesión</label>
+                <input type="radio" name="active-log-panel" id="log-reg-show" checked="checked">
+            </div>
+
+        <div class="register-info-box">
+            <h2>Registro</h2>
+            <p>Registrate Para Crear Una Cuenta Nueva</p>
+            <label id="label-login" for="log-login-show">Registrar</label>
+            <input type="radio" name="active-log-panel" id="log-login-show">
+        </div>
+
+        <div class="white-panel">
+            <div class="login-show">
+                <h2>INICIAR SESIÓN</h2>
+                <input type="text" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <input type="button" value="Iniciar Sesión">
+                <a href="">¿Olvidaste Tu Contraseña?</a>
+            </div>
+            <div class="register-show">
+                <h2>REGISTRAR</h2>
+                <input type="text" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <input type="password" placeholder="Repetir Contraseña">
+                <input type="button" value="Registrar">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
